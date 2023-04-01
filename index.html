@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página Inicial</title>
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" placeholder="Pesquisar...">
+      <button>Search</button>
+      
+      <label for="estados">Estados</label>
+      <select id="estados">
+        <option value="">Selecione</option>
+      </select>
+
+      <label for="cidades">Cidades</label>
+      <select id="cidades">
+        <option value="">Selecione</option>
+      </select>
+      
+      <label for="tipo">Tipo</label>
+      <select id="tipo">
+        <option value="">Selecione</option>
+        <option value="parque">Parque</option>
+        <option value="bar">Bar</option>
+        <option value="balada">Balada</option>
+        <option value="casa_de_eventos">Casa de Eventos</option>
+      </select>
+
+      <label for="zona">Zona</label>
+      <select id="zona">
+        <option value="">Selecione</option>
+        <option value="zona_norte">Zona Norte</option>
+        <option value="centro">Centro</option>
+        <option value="zona_sul">Zona Sul</option>
+        <option value="zona_oeste">Zona Oeste</option>
+    </select>
+  
+    <div class="periodo">
+      <label><input type="checkbox" name="periodo" value="manha">Manhã</label>
+      <label><input type="checkbox" name="periodo" value="tarde">Tarde</label>
+      <label><input type="checkbox" name="periodo" value="noturno">Noturno</label>
+    </div>
+  </div>
+  
+  <div class="item-list">
+    <div class="item">
+      <img src="https://via.placeholder.com/50x50" alt="Parque das Orquídeas">
+      <div class="item-info">
+        <h3>Parque das Orquídeas</h3>
+        <p>Um belo parque com várias espécies de orquídeas.</p>
+        <span>Rio de Janeiro</span>
+        <span>Zona Sul</span>
+        <span>Parque</span>
+        <span>Manhã</span>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="https://via.placeholder.com/50x50" alt="Bar do João">
+      <div class="item-info">
+        <h3>Bar do João</h3>
+        <p>Um bar aconchegante com música ao vivo e petiscos deliciosos.</p>
+        <span>Salvador</span>
+        <span>Centro</span>
+        <span>Bar</span>
+        <span>Noturno</span>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="https://via.placeholder.com/50x50" alt="Balada da Lua">
+      <div class="item-info">
+        <h3>Balada da Lua</h3>
+        <p>Uma balada animada com DJ e muita música eletrônica.</p>
+        <span>São Paulo</span>
+        <span>Zona Oeste</span>
+        <span>Balada</span>
+        <span>Noturno</span>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="https://via.placeholder.com/50x50" alt="Casa de Eventos Festança">
+      <div class="item-info">
+        <h3>Casa de Eventos Festança</h3>
+        <p>Um espaço versátil para festas e eventos de todos os tipos.</p>
+        <span>Curitiba</span>
+        <span>Zona Norte</span>
+        <span>Casa de Eventos</span>
+        <span>Tarde</span>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="https://via.placeholder.com/50x50" alt="Parque dos Pássaros">
+      <div class="item-info">
+        <h3>Parque dos Pássaros</h3>
+        <p>Um parque tranquilo, ótimo para observação de pássaros.</p>
+        <span>Porto Alegre</span>
+        <span>Centro</span>
+        <span>Parque</span>
+        <span>Tarde</span>
+      </div>
+    </div>
+</div>
+  <div class="pagination">
+    <button class="prev">Anterior</button>
+    <span class="page-number">1</span>
+    <button class="next">Próximo</button>
+  </div> 
+</div>
+  <script src="scripts.js"></script>
+</body>
+</html>
+  
