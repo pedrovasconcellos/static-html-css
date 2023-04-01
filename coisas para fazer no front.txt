@@ -1,0 +1,29 @@
+Ao clicar em cima de cada item no espaço quadrado que resume o item, irá abrir um modal.
+neste modal terá as seguintes infos:
+
+
+4 Fotos em carrossel, sendo a primeira foto do carrossel a foto que aparece na listagem.
+
+LABEL e INFO DESCRIPTION
+
+Nome do local
+Descrição do local
+um botão com simbolo de like e outro botao com simbolo de deslike, mostrando o número de cada dado pelo users;
+tipo do local (bar, balada )
+período (manhã tarde noite)
+estado (nome completo)
+cidade
+Zona (nome completo da zona)
+endereço (logradouro)
+
+
+O Carrossel tem que ser responsivo a pc e celular, a página vai tudo carregar via JS,
+o comando de abertura do carrossel deverá ser uma function em js,
+para que eu possa colocar meu HTTP GET para popular os campos.
+
+O carrossel deve ter um botão de fechar.
+cada prop do carrossel deve ter um ID para eu usar o ID no JS para preencher as infos
+
+as imagens vão ser urls do AWS S3 ou AZURE
+
+Preciso melhorar a estética do index.html
